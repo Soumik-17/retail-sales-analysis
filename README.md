@@ -29,8 +29,8 @@ Full details of each question are in `business_problems.md`, and how each was so
 - **SQL client** (e.g., pgAdmin / psql) – used to run the queries in `retail_sales_queries.sql` against PostgreSQL.
 
 ## Project Files
-- `combine_datasets.ipynb` – Python notebook that cleans and combines the two raw datasets into one CSV.
-- `retail_sales_queries.sql` – PostgreSQL script that loads the cleaned data, checks data quality, builds a clean view, and answers all business questions.
+- `notebooks/combine_datasets.ipynb` – Python notebook that cleans and combines the two raw datasets into one CSV.
+- `sql/retail_sales_queries.sql` – PostgreSQL script that loads the cleaned data, checks data quality, builds a clean view, and answers all business questions.
 - `business_problems.md` – Business questions written in plain language for each stakeholder.
 - `solutions.md` – Explanation of how each question was solved using SQL.
 
